@@ -1,0 +1,113 @@
+
+
+#particles-js
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("nightbk.jpg");
+  
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome
+{
+  margin-left: 6%;
+  margin-right: 6%;
+  position: absolute;
+  font-family: sans-serif;
+}
+
+.welcome h1
+{
+  font-size: 42px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.welcome h3
+{
+  color : white;
+}
+.welcome h5
+{
+  color : slateblue;
+  text-align: center;
+}
+
+a
+{
+  color: blue;
+  text-decoration: none;
+}
+
+p{
+  color: white;
+  font-size: 18px;
+}
+code{
+  color: yellow;
+  text-align: center;
+}
+
+#d1{
+  color: lightblue;
+  display: none;
+  font-size: 8px;
+}
+#d2{
+  color: lightblue;
+  display: none;
+  font-size: 8px;
+}
+#d3{
+  color: lightblue;
+  display: none;
+  font-size: 8px;
+}
+#d4{
+  color: lightblue;
+  display: none;
+  font-size: 8px;
+}
+#a1:hover + #d1{
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#a2:hover + #d2{
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#a3:hover + #d3{
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#a4:hover + #d4{
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+img {
+  opacity: 0.95;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+table
+{
+  margin-top: 60px;
+}
+th
+{
+  margin-top : 45px;
+  margin-right: 45px;
+  margin-left: 45px;
+  margin-bottom: 45px;
+}
+hr
+{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
